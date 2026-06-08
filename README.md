@@ -1,121 +1,70 @@
 # 📊 Data Structures Visualizer
 
-An interactive web application that helps beginners understand **Data Structures and Algorithms (DSA)** through real-time visualizations and animations.
+> An interactive browser-based tool to visualize data structures and sorting algorithms with real-time animations.
 
-🔗 **Live Demo:**
-https://manjiria12.github.io/data-visualizer/
-
----
-
-## 🚀 Project Overview
-
-This project visually demonstrates how different data structures and sorting algorithms work internally.
-It allows users to **see each step**, making learning more intuitive and engaging.
+🔗 **Live Demo:** [manjiri-dev10.github.io/data-visualizer](https://manjiri-dev10.github.io/data-visualizer/)  
+🐙 **Repository:** [github.com/manjiri-dev10/data-visualizer](https://github.com/manjiri-dev10/data-visualizer)
 
 ---
 
 ## ✨ Features
 
-### 📦 Data Structures Visualization
-
-* 🔹 **Stack**
-
-  * Push operation with animation
-  * Pop operation with visual removal
-
-* 🔹 **Queue**
-
-  * Enqueue (insert) animation
-  * Dequeue (remove) animation
+- 📚 **Stack** — Push, Pop, Peek with visual animation
+- 🔁 **Queue** — Enqueue, Dequeue with live rendering
+- 🔵 **Bubble Sort** — Step-by-step visual sorting with color highlights
+- 🔴 **Selection Sort** — Animated min-finding and swapping
+- ⏩ Speed control — Adjust animation speed (Slow / Medium / Fast)
+- 📖 Step-by-step explanations for each operation
+- 🎨 Clean, responsive UI
 
 ---
 
-### 🔄 Sorting Visualizations
+## 🛠️ Tech Stack
 
-* 🟦 **Bubble Sort**
-
-  * Step-by-step comparisons
-  * Swap animations
-
-* 🟩 **Selection Sort**
-
-  * Minimum element selection
-  * Position swapping visualization
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structure |
+| CSS3 | Styling & Animations |
+| JavaScript (Vanilla) | Logic & DOM manipulation |
+| Canvas API | Visual rendering of data structures |
 
 ---
 
-### 🎮 Interactive Controls
+## 🚀 Run Locally
 
-* ▶️ Start / Pause execution
-* 🔁 Reset visualization
-* 🎚 Adjustable speed control
+```bash
+# Clone the repository
+git clone https://github.com/manjiri-dev10/data-visualizer.git
 
----
-
-### 🧠 Learning-Focused Features
-
-* 📌 Step-by-step explanation panel
-* 🎨 Color-coded comparisons and swaps
-* 👀 Clear visual representation of operations
+# Open in browser
+cd data-visualizer
+# Open index.html directly in any browser
+```
 
 ---
 
-## 🛠 Tech Stack
+## 📚 What I Learned
 
-* **HTML** – Structure
-* **CSS** – Styling & animations
-* **JavaScript** – Logic & interactivity
-
----
-
-## 📸 Screenshots
-
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1a6f7356-a999-4236-b8aa-4b84d1f09239" />
-
-
-
-## ⚙️ How to Use
-
-1. Open the live demo link
-2. Select a data structure or algorithm
-3. Click **Start** to begin visualization
-4. Adjust speed using the slider
-5. Observe step-by-step execution
+- How to use the **Canvas API** for custom rendering
+- Implementing **delay functions** for step-by-step animation
+- Translating **DSA concepts** into visual representations
+- Managing **animation state** in vanilla JavaScript
 
 ---
 
-## 🎯 Learning Goals
+## 🔮 Future Improvements
 
-This project was built to:
-
-* Understand core DSA concepts visually
-* Improve problem-solving skills
-* Practice frontend development
-* Create an interactive learning tool
-
----
-
-## 🚀 Future Improvements
-
-* Add **Merge Sort & Quick Sort**
-* Add **Binary Tree visualization**
-* Add **Graph algorithms (BFS / DFS)**
-* Add **Dark Mode UI**
-* Add **User input for custom arrays**
+- [ ] Add Linked List visualization
+- [ ] Add Binary Search Tree
+- [ ] Add Merge Sort and Quick Sort
+- [ ] Add comparison counter and swap counter
+- [ ] Mobile touch support
 
 ---
 
-## 🙌 Author
+## 👩‍💻 Author
 
-👤 Manjiri
-
----
-
-## ⭐ Support
-
-If you found this helpful:
-
-* ⭐ Star this repository on GitHub
-* Share it with other learners
-
----
+**Manjiri Arolkar**
+- 💼 [LinkedIn](https://www.linkedin.com/in/manjiri10)
+- 🐙 [GitHub](https://github.com/manjiri-dev10)
+- 🌐 [Portfolio](https://manjiri-dev10.github.io/My-portfolio-website-/)
